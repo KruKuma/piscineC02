@@ -6,23 +6,24 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/25 19:17:07 by nfurst            #+#    #+#             */
-/*   Updated: 2026/06/25 19:17:07 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/06/26 09:14:51 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strncpy(char *dest, char *src, unsigned int n)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-    char *ptr = dest;
+	char	*ptr;
 
-    while (n > 0 && *src != '\0')
-    {
-        *ptr++ = *src++;
-        n--;
-    }
-    while (n > 0)
-    {
-        *ptr++ = '\0';
-        n--;
-    }
-    return dest;
+	ptr = dest;
+	while (n > 0 && *src != '\0')
+	{
+		*ptr++ = *src++;
+		n--;
+	}
+	while (n > 0)
+	{
+		*ptr++ = '\0';
+		n--;
+	}
+	return (dest);
 }
