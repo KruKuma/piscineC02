@@ -37,4 +37,6 @@ piscineC02/
 ├── ex07/
 ├── ex08/
 ├── ex09/
+├── ex10/
+├── ex11/
 └── .gitignore
