@@ -6,7 +6,7 @@
 /*   By: nfurst <nfurst@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 10:53:06 by nfurst            #+#    #+#             */
-/*   Updated: 2026/07/03 11:07:23 by nfurst           ###   ########.fr       */
+/*   Updated: 2026/07/03 11:16:57 by nfurst           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	ft_put_hex(unsigned char c)
 
 void	ft_putstr_non_printable(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -36,5 +36,5 @@ void	ft_putstr_non_printable(char *str)
 		else
 			ft_put_hex((unsigned char)str[i]);
 		i++;
-	}	
+	}
 }
