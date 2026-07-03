@@ -19,8 +19,8 @@ The project focuses on string manipulation, string checks, character case conver
 | ex07 | ft_strupcase | Done |
 | ex08 | ft_strlowcase | Done |
 | ex09 | ft_strcapitalize | Done |
-| ex10 | ft_strlcpy | Not committed yet |
-| ex11 | ft_putstr_non_printable | Not committed yet |
+| ex10 | ft_strlcpy | Done |
+| ex11 | ft_putstr_non_printable | Done |
 | ex12 | ft_print_memory | Not committed yet |
 
 ## Project structure
